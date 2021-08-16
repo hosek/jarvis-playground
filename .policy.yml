@@ -1,9 +1,8 @@
 policy:
   approval:
-    - one approval from palantir
+  - the devtools team has approved
 
 approval_rules:
-  - name: one approval from palantir
-    requires:
-      count: 1
-      organizations: ["palantir"]
+- name: the devtools team has approved
+  requires:
+    count: 1
